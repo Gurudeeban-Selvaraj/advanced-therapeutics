@@ -1,4 +1,4 @@
-streamlit==0.88.2
+streamlit==0.88.0
 pandas==1.2.4
 PIL==8.2.0
 subprocess==0.0.8
