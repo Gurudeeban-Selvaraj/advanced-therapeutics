@@ -84,7 +84,7 @@ if st.sidebar.button('Predict'):
     st.write(load_data)
 
     with st.spinner("Calculating descriptors..."):
-        desc_calc()
+        desc_calc():
     # Read in calculated descriptors and display the dataframe
     st.header('**Calculated molecular descriptors**')
     desc = pd.read_csv('descriptors_output.csv')
