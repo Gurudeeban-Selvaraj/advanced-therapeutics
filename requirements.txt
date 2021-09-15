@@ -1,0 +1,7 @@
+streamlit = 0.24.2
+pandas = 1.1.5
+PIL = 8.3.1
+subprocess =0.0.8
+os = 0.8.0
+base64 = 1.2.0
+pickle = 0.7.5
