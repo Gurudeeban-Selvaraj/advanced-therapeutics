@@ -13,16 +13,16 @@ Original file is located at
 import streamlit as st
 import pandas as pd
 from PIL import Image
-import subprocess
+import subprocess.run
 import os
-import base64
-import pickle
+import pybase64
+import pickleshare
 
 # Molecular descriptor calculator
 def desc_calc():
     # Performs the descriptor calculation
     bashCommand = "java -Xms2G -Xmx2G -Djava.awt.headless=true -jar ./PaDEL-Descriptor/PaDEL-Descriptor.jar -removesalt -standardizenitro -fingerprints -descriptortypes ./PaDEL-Descriptor/PubchemFingerprinter.xml -dir ./ -file descriptors_output.csv"
-    process = subprocess.Popen(bashCommand.split(), stdout=subprocess.PIPE)
+    process = subprocess.run.Popen(bashCommand.split(), stdout=subprocess.PIPE)
     output, error = process.communicate()
     os.remove('molecule.smi')
 
