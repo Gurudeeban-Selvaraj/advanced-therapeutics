@@ -4,4 +4,4 @@ pillow==8.2.0
 subprocess.run==0.0.8
 os.sys==2.1.4
 pybase64==1.2.0
-pickle==0.7.5
+pickleshare==0.7.5
