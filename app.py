@@ -13,7 +13,7 @@ Original file is located at
 import streamlit as st
 import pandas as pd
 from PIL import Image
-import subprocess.run
+import subprocess
 import os
 import pybase64
 import pickleshare
