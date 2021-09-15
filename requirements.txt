@@ -1,6 +1,6 @@
 streamlit==0.88.0
 pandas==1.2.4
-PIL==8.2.0
+pillow==8.2.0
 subprocess==0.0.8
 os==0.8.0
 base64==1.2.0
