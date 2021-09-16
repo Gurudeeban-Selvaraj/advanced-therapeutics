@@ -1,7 +1,9 @@
 streamlit==0.88.0
+multiapp-1.0
 pandas==1.2.4
 pillow==8.2.0
 subprocess.run==0.0.8
 stdlib-list==0.8.0
 pybase64==1.2.0
 pickleshare==0.7.5
+numpy==1.19.2
