@@ -54,8 +54,8 @@ st.image(image, use_column_width=True)
 # Page title
 st.markdown("""
 
-VDR-Pred (Vitamin D Receptor agonist prediction tool) – Easy way to predict VDR agonistic activity of drug-like molecules using Machine learning algorithm based QSAR models
-The screening results allows the user to use the predicted molecules to activate the vitamin D receptor enzyme. VDR is a drug target for many infectious and immunological disease.
+VDR is a drug target for many infectious and immunological diseases. VDR-Pred (Vitamin D Receptor agonist prediction tool) – Easy way to predict VDR agonistic activity of drug-like molecules using Machine learning algorithm-based QSAR models.
+The screening results allow the user to use the predicted molecules to activate the vitamin D receptor enzyme. 
 
 **Credits**
 - App built in `Python` + `Streamlit` by [Gurudeeban Selvaraj], Centre for Research in Molecular Modeling (CERMM), Concordia University, Montreal, Quebec, Canada, H4B 1R6 
