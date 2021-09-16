@@ -11,6 +11,8 @@ Original file is located at
 
 
 import streamlit as st
+from multiapp import MultiApp
+from apps import home, data, model # import your app modules here
 import pandas as pd
 from PIL import Image
 import subprocess
@@ -61,6 +63,18 @@ def build_model(input_data):
 image = Image.open('logo1a.jpg')
 
 st.image(image, use_column_width=True)
+
+# Add all your application here
+app.add_app("Home", home.app)
+app.add_app("Submission", submission.app)
+app.add_app("Help", help.app)
+app.add_app("Method", method.app)
+app.add_app("Team", team.app)
+
+# The main app
+app.run()
+
+
 
 # Page title
 st.markdown("""
