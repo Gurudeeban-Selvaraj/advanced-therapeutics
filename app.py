@@ -64,11 +64,6 @@ The screening results allow the user to use the predicted molecules to activate 
 ---
 """)
 
-# Logo image
-image = Image.open('CERMM.jpg')
-
-st.image(image, use_column_width=True)
-
 # Sidebar
 with st.sidebar.header('1. Upload your CSV data'):
     uploaded_file = st.sidebar.file_uploader("Upload your input file", type=['txt'])
