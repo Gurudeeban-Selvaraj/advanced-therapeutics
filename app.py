@@ -47,15 +47,14 @@ def build_model(input_data):
     st.markdown(filedownload(df), unsafe_allow_html=True)
 
 # Logo image
-image = Image.open('logo1.jpg')
+image = Image.open('logo1a.jpg')
 
 st.image(image, use_column_width=True)
 
 # Page title
 st.markdown("""
-# Bioactivity Prediction App (Vitamin D Receptor agonist)
-
-This app allows you to predict the bioactivity towards activating the vitamin D receptor enzyme. VDR is a drug target for many infectious and immunological disease.
+# VDR-Pred (Vitamin D Receptor agonist prediction tool) – Easy way to predict VDR agonistic activity of drug-like molecules using Machine learning algorithm based QSAR models
+The screening results allows the user to use the predicted molecules to activate the vitamin D receptor enzyme. VDR is a drug target for many infectious and immunological disease.
 
 **Credits**
 - App built in `Python` + `Streamlit` by [Gurudeeban Selvaraj], Centre for Research in Molecular Modeling (CERMM), Concordia University, Montreal, Quebec, Canada, H4B 1R6 
